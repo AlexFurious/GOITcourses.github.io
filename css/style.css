@@ -1,0 +1,21 @@
+.room{
+    width: 470px;
+    margin: auto;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.des{
+    text-transform:  uppercase;
+    color: rgba(180, 173, 158, 255);
+}
+
+.pic{
+    margin: auto;
+    width: 300px;
+
+}
+
+img{
+width: 100%;
+
+}

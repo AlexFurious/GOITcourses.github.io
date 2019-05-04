@@ -1,0 +1,179 @@
+/* li:first-child{
+    color: #000fff;
+}
+
+li:last-child{
+    color: #ff0000;
+}
+
+li:nth-child(even):hover{
+    color: #00ff0f;
+}
+
+li:nth-child(odd)::first-letter{
+    font-size: 30px;
+    color: #00f0ff;
+}
+
+ul{
+    display: flex;
+   
+}
+
+li{
+    width: 30%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: center;
+}
+
+.box{
+    width: 200px;
+    height: 150px;
+    margin: 30px;
+
+}
+ */
+
+ /* li:hover{
+     color: #000fff;
+ }
+
+ ul{
+     display: flex;
+     justify-content: space-between;
+ } */
+
+ /* li:nth-child(-n+3){
+     background-color: #88292f;
+    
+ }
+
+ li{
+     color: #0e1116;
+ }
+
+ li:nth-child(n+4){
+     background-color: #5db7de;
+ }
+
+li:nth-child(n+7){
+    background-color: #0d5d56;
+} */
+/* 
+li:before{
+    content: "\2192"
+}
+
+li::after{
+    content: "\2190"
+}
+
+div::after{
+    content: "\2290"
+}
+
+div::before{
+    content: "\2295"
+} */
+
+/* li{
+    list-style: none;
+}
+
+li:first-child::before{
+    content: "I.";
+}
+    li:last-child::before{
+        content: "V.";
+    }
+
+    li:nth-child(2)::before{
+        content: "II.";
+        
+    }
+
+    
+    li:nth-child(3)::before{
+        content: "III.";
+        
+    }
+
+    
+    li:nth-child(4)::before{
+        content: "IV.";
+       
+    }
+
+    
+   ul{
+       display: flex;
+       width: 150px;
+       flex-direction: column;
+       align-items: space-between;
+   } */
+
+.wrapper{
+    padding: 20px;
+}
+
+   .logo{
+       text-decoration: none;
+       color: black;
+       font-size: 21px;
+       text-transform: uppercase;
+       font-weight: 100;
+
+   }
+
+   .menu{
+       display: flex;
+       width: 50%;
+       justify-content: space-between;
+       list-style: none;
+       font-size: 10px;
+       font-weight: 900;
+
+   }
+
+   header{
+       display: flex;
+       justify-content: space-between;
+       align-items: baseline;
+       text-transform: uppercase;
+   }
+
+   li{
+       list-style: none;
+   }
+
+   h1::first-letter{
+       color: #1abc9c;
+       font-weight: 900;
+       
+   }
+
+   .menu li:hover{
+       color:  #1abc9c;
+   }
+
+   .container{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       margin: auto;
+   }
+
+   .box{
+       width: 23%;
+
+   }
+
+   
